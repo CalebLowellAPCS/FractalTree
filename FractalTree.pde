@@ -19,10 +19,6 @@ public void draw()
 	drawBranches(320,380,100,3*Math.PI/2, 20); 
 	 //will add later 
 } 
-public void mousePressed()//optional
-{
-    d = d - 50;
-}
 public void drawBranches(int x,int y, double branchLength, double angle, int d) 
 {   
 double angle1 = angle + branchAngle;
