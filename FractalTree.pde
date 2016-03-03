@@ -39,6 +39,5 @@ if(branchLength > smallestBranch){
 	drawBranches(endX1, endY1, branchLength, angle1, d + 10);
 	drawBranches(endX1, endY1, branchLength, angle2, d + 12);
 }
-System.out.println(d);
 	//your code here    
 } 
